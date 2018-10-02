@@ -6,7 +6,7 @@ import HeaderLinks from "../Header/HeaderLinks.jsx";
 /*aca despues para cambiar el logo que aparece de react.js */
 /*import imagine from "assets/img/sidebar-3.jpg";
 */
-import logo from "assets/img/reactlogo.png";
+import logo from "assets/img/icono-carrito.png";
 
 import dashboardRoutes from "routes/dashboard.jsx";
 

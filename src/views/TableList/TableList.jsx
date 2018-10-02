@@ -39,8 +39,7 @@ class TableList extends Component {
                   </Table>
                 }
               />
-            </Col>
-                     
+            </Col>                     
           </Row>
         </Grid>
       </div>
