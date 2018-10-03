@@ -35,18 +35,18 @@ class Header extends Component {
       if (prop.collapse) {
         prop.views.map((prop, key) => {
           if (prop.path === this.props.location.pathname) {
-            name = "Tabla de productos";
+            name = "Producto de Supermercado";
           }
           return null;
         });
       } else {
         if (prop.redirect) {
           if (prop.path === this.props.location.pathname) {
-              name = "Tabla de productos";
+             name = "Producto de Supermercado";
           }
         } else {
           if (prop.path === this.props.location.pathname) {
-              name = "Tabla de productos";
+              name = "Producto de Supermercado";
           }
         }
       }

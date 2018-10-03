@@ -15,7 +15,7 @@ import Button from "components/CustomButton/CustomButton.jsx";
 
 import avatar from "assets/img/faces/face-3.jpg";
 
-class UserProfile extends Component {
+class CrearProducto extends Component {
   render() {
     return (
       <div className="content">
@@ -23,7 +23,7 @@ class UserProfile extends Component {
           <Row>
             <Col md={11}>
               <Card
-                title="Edit Profile"
+                 title="Crear un Producto"
                 content={
                   <form>
                     <FormInputs
@@ -93,4 +93,4 @@ class UserProfile extends Component {
   }
 }
 
-export default UserProfile;
+export default CrearProducto;

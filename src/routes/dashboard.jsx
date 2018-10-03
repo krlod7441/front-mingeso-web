@@ -1,6 +1,9 @@
 
 import Dashboard from "views/Dashboard/Dashboard";
-import UserProfile from "views/UserProfile/UserProfile";
+import CrearProducto from "views/UserProfile/CrearProducto";
+import EditarProducto from "views/UserProfile/EditarProducto";
+
+import EliminarProducto from "views/UserProfile/EliminarProducto";
 
 import TableList from "views/TableList/TableList";
 
@@ -25,21 +28,21 @@ const dashboardRoutes = [
     path: "/create",
     name: "Crear nuevo Producto",
     icon: "pe-7s-plus",
-    component: UserProfile
+    component: CrearProducto
   },
 
   {
     path: "/edit",
     name: "Editar Producto",
     icon: "pe-7s-edit",
-    component: UserProfile
+    component: EditarProducto
   },
 
  {
     path: "/delete",
     name: "Eliminar un Producto",
     icon: "pe-7s-trash",
-    component: UserProfile
+    component: EliminarProducto
   },
 
     /*,
