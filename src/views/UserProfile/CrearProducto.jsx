@@ -35,7 +35,7 @@ class CrearProducto extends Component {
                           bsClass: "form-control",
                           placeholder: "Company",
                           defaultValue: "7",
-                          disabled: true
+                          disabled: false
                         },
                         {
                           label: "Nombre",
@@ -46,7 +46,7 @@ class CrearProducto extends Component {
                         },
                         {
                           label: "Descripción",
-                          type: "email",
+                          type: "text",
                           bsClass: "form-control",
                           placeholder: "description"
                         }

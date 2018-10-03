@@ -46,7 +46,7 @@ class EliminarProducto extends Component {
                         },
                         {
                           label: "Descripción",
-                          type: "email",
+                          type: "text",
                           bsClass: "form-control",
                           placeholder: "description"
                         }
