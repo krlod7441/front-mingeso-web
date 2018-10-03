@@ -35,7 +35,7 @@ class EditarProducto extends Component {
                           bsClass: "form-control",
                           placeholder: "Company",
                           defaultValue: "7",
-                          disabled: true
+                          disabled: false
                         },
                         {
                           label: "Nombre",
