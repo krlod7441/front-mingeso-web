@@ -10,7 +10,7 @@ class TableList extends Component {
       <div className="content">
         <Grid fluid>
           <Row>
-            <Col md={12}>
+            <Col md={10}>
               <Card
                 title="Todos los productos"
                 category="Supermercado"
